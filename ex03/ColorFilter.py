@@ -56,11 +56,10 @@ class ColorFilter:
 
 
 if __name__ == '__main__':
-    # img = ImageProcessor.load("../ex01/rectangle.png")
     img = ImageProcessor.load("bob.png")
-    # ImageProcessor.display(ColorFilter.invert(img))
+    ImageProcessor.display(ColorFilter.invert(img))
     # ImageProcessor.display(ColorFilter.to_blue(img))
     # ImageProcessor.display(ColorFilter.to_green(img))
     # ImageProcessor.display(ColorFilter.to_red(img))
     # ImageProcessor.display(ColorFilter.celluloid(img, 4))
-    ImageProcessor.display(ColorFilter.grayscale(img))
+    # ImageProcessor.display(ColorFilter.grayscale(img))
